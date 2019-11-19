@@ -1,0 +1,13 @@
+install.packages(c("ggplot2", "devtools"))
+library(devtools)
+devtools::install_github("sahuno/")
+library()
+old.packages()
+detach()
+sessionInfo()
+version
+help(package = "ggplot2")
+browseVignettes("GenomicFeatures")
+source("https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5870795/")
+devtools::install_github("broadinstitute/ichorCNA")
+help(package="devtools")
